@@ -6,4 +6,6 @@ urlpatterns = [
     # 127.0.0.1:8000/hello-world
     path("hello", views.hello),
     # 127.0.0.1:8000/hello
+    path("calc", views.calculator),
+    # 127.0.0.1:8000/calc
 ]
